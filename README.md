@@ -11,7 +11,7 @@ This repository contains my programming model and discussion for the Udacity SDC
 This implementation uses a Kinetic model, which is a simplification of a vehicle model. Model inputs include: vehicle location (x,y), orientation (psi), velocity (v), cross track error (cte), error of psi, as well as acceleration (a) and steering angle (delta). Acceleration and steering angle are used as actuators to propel and guide the car. The update step employs the following equation:
 
 <br>
-<img src="https://github.com/joshpierro/self-driving-car-term2/blob/master/p5/images/update.png"/>
+<img src="https://github.com/OwenHua666/CarND-MPC-Project/blob/master/update.png"/>
 <br>
 
 ### Timestep Length and Elapsed Duration Rationale
