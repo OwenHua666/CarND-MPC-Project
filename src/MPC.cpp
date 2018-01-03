@@ -7,7 +7,7 @@ using CppAD::AD;
 
 //one second into the future
 size_t N = 10;
-double dt = .1;
+double dt = 0.1;
 
 
 // This value assumes the model presented in the classroom is used.
