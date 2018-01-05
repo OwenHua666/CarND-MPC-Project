@@ -51,7 +51,7 @@ At each step, a bit of per-processing was performed on the car's location data (
  
  
 ### MPC Latency
-The purpose of latency in the model is to simulate real world driving conditions where the car does respond to commands instantly, as well as the latency between getting sensor data and processing it. I use dt larger than 100 ms to copy with this problem. 
+The purpose of latency in the model is to simulate real world driving conditions where the car does respond to commands instantly, as well as the latency between getting sensor data and processing it. I used the dynamic model of the vehicle to predict the vehicle states after 100ms before feed the states to the solver.
 
 ### Result
 The vehicle could reach 85 mph on the straight track and reduce speed to follow the trach at the sharp turn. 
